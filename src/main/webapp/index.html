@@ -2,17 +2,60 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Đặt Vé Máy Bay</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VietJet Air Clone</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1>Đặt Vé Máy Bay</h1>
-    <form action="search-flights" method="get">
-        <label>Điểm đi:</label>
-        <input type="text" name="from" required>
-        <label>Điểm đến:</label>
-        <input type="text" name="to" required>
-        <button type="submit">Tìm chuyến bay</button>
-    </form>
+    <!-- Thanh điều hướng -->
+    <header>
+        <div class="navbar">
+            <img src="images/logo.png" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">SKYJOY</a></li>
+                    <li><a href="#">Chuyến bay của tôi</a></li>
+                    <li><a href="#">Lịch sử mua vé</a></li>
+                    <li><a href="#">Trạng thái vé</a></li>
+                </ul>
+            </nav>
+            <div class="auth">
+                <a href="#">Đăng nhập</a> | <a href="#">Đăng ký</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="banner-content">
+            <h1>CHỌN MUA VÉ VIETJET, ĐÃ BAO GỒM BẢO HIỂM SKY CARE</h1>
+            <ul>
+                <li>Bảo hiểm trễ chuyến bay từ 90 phút</li>
+                <li>Bảo hiểm trễ hành lý, thất lạc giấy tờ...</li>
+                <li>Bồi thường nhanh, làm ngay <span class="highlight">TRỰC TUYẾN</span></li>
+            </ul>
+        </div>
+        <div class="booking-form">
+            <h2>Tìm chuyến bay</h2>
+            <form>
+                <label>
+                    <input type="radio" name="trip" checked style="color: yellow;"> 
+                    <p style="color: red;"> Khu hoi</p>
+                    <input type="radio" name="trip" style="color: yellow;"> Một chiều
+                </label>
+                <input type="text" placeholder="Điểm khởi hành">
+                <input type="text" placeholder="Điểm đến">
+                <input type="date">
+                <input type="date">
+                <select>
+                    <option>1 Người lớn</option>
+                    <option>2 Người lớn</option>
+                </select>
+                <button type="submit">Tìm chuyến bay</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 </html>
