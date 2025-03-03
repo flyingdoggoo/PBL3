@@ -1,3 +1,7 @@
+@import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+
+
 /* Reset mặc định */
 body, h1, h2, ul, li, p {
     margin: 0;
@@ -80,4 +84,32 @@ body {
     border: none;
     font-weight: bold;
     cursor: pointer;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+.login-container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.left-box {
+    background: #7b3ff2;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+}
+.social-btn {
+    width: 100%;
 }

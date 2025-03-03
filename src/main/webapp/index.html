@@ -1,61 +1,57 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VietJet Air Clone</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Login Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <!-- Thanh điều hướng -->
-    <header>
-        <div class="navbar">
-            <img src="images/logo.png" alt="Logo" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="#">SKYJOY</a></li>
-                    <li><a href="#">Chuyến bay của tôi</a></li>
-                    <li><a href="#">Lịch sử mua vé</a></li>
-                    <li><a href="#">Trạng thái vé</a></li>
-                </ul>
-            </nav>
-            <div class="auth">
-                <a href="#">Đăng nhập</a> | <a href="#">Đăng ký</a>
-            </div>
-        </div>
-    </header>
 
-    <!-- Banner -->
-    <section class="banner">
-        <div class="banner-content">
-            <h1>CHỌN MUA VÉ VIETJET, ĐÃ BAO GỒM BẢO HIỂM SKY CARE</h1>
-            <ul>
-                <li>Bảo hiểm trễ chuyến bay từ 90 phút</li>
-                <li>Bảo hiểm trễ hành lý, thất lạc giấy tờ...</li>
-                <li>Bồi thường nhanh, làm ngay <span class="highlight">TRỰC TUYẾN</span></li>
-            </ul>
+<div class="container login-container">
+    <div class="row w-100 shadow-lg rounded">
+        <!-- Left side -->
+        <div class="col-md-5 left-box d-flex flex-column justify-content-center">
+            <h3 class="fw-bold">BUSINESS</h3>
+            <h2 class="fw-bold" style="font-size: 23px;">FLIGHT RESERVATION</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-        <div class="booking-form">
-            <h2>Tìm chuyến bay</h2>
+
+        <!-- Right side (Login Form) -->
+        <div class="col-md-7 p-5 bg-white login-box">
+            <h4 class="text-center fw-bold">Sign in to your account</h4>
+            <div class="text-center my-3">
+                <img src="./images/Screenshot 2025-03-03 141029.png" alt="Logo" style="width: 200px; height: 100px;">
+            </div>
             <form>
-                <label>
-                    <input type="radio" name="trip" checked style="color: yellow;"> 
-                    <p style="color: red;"> Khu hoi</p>
-                    <input type="radio" name="trip" style="color: yellow;"> Một chiều
-                </label>
-                <input type="text" placeholder="Điểm khởi hành">
-                <input type="text" placeholder="Điểm đến">
-                <input type="date">
-                <input type="date">
-                <select>
-                    <option>1 Người lớn</option>
-                    <option>2 Người lớn</option>
-                </select>
-                <button type="submit">Tìm chuyến bay</button>
+                <div class="mb-3">
+                    <label class="form-label">Email *</label>
+                    <input type="email" class="form-control" placeholder="Enter Your Email">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Password *</label>
+                    <input type="password" class="form-control" placeholder="Enter Your Password">
+                </div>
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div>
+                        <input type="checkbox" id="rememberMe">
+                        <label for="rememberMe"> Remember me</label>
+                    </div>
+                    <a href="#" class="text-decoration-none">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Login</button>
+                <div class="text-center my-3">or register with</div>
+                <div class="d-flex gap-2">
+                    <button class="btn btn-primary social-btn"><i class="fab fa-facebook"></i> Facebook</button>
+                    <button class="btn btn-danger social-btn"><i class="fab fa-google"></i> Google</button>
+                </div>
             </form>
         </div>
-    </section>
+    </div>
+</div>
 
-    <script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </body>
 </html>
