@@ -1,0 +1,115 @@
+@import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+
+
+/* Reset mặc định */
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d32f2f;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url('images/banner.jpg') no-repeat center/cover;
+    padding: 50px;
+    color: white;
+}
+
+.banner-content {
+    max-width: 50%;
+}
+
+.highlight {
+    color: yellow;
+    font-weight: bold;
+}
+
+/* Form chọn chuyến bay */
+.booking-form {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    width: 350px;
+}
+
+.booking-form h2 {
+    color: #d32f2f;
+    text-align: center;
+}
+
+.booking-form input, .booking-form select, .booking-form button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.booking-form button {
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+.login-container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.left-box {
+    background: #7b3ff2;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+}
+.social-btn {
+    width: 100%;
+}
