@@ -59,3 +59,5 @@
 0:0:0:0:0:0:0:1 - - [03/Mar/2025:14:52:28 +0700] "GET /HelloWorlda/pages/script.js HTTP/1.1" 404 786
 0:0:0:0:0:0:0:1 - - [03/Mar/2025:14:52:28 +0700] "GET /HelloWorlda/css/node_modules/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 404 840
 0:0:0:0:0:0:0:1 - - [03/Mar/2025:14:52:28 +0700] "GET /HelloWorlda/css/images/banner.jpg HTTP/1.1" 404 796
+127.0.0.1 - - [03/Mar/2025:14:59:29 +0700] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [03/Mar/2025:15:20:27 +0700] "GET / HTTP/1.1" 404 751
