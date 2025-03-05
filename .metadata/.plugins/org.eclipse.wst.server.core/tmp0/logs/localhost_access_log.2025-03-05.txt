@@ -1,1 +1,9 @@
 127.0.0.1 - - [05/Mar/2025:15:51:03 +0700] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [05/Mar/2025:15:54:40 +0700] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [05/Mar/2025:16:10:52 +0700] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [05/Mar/2025:16:11:06 +0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [05/Mar/2025:16:11:07 +0700] "GET /HelloWorlda/index.html HTTP/1.1" 200 2694
+0:0:0:0:0:0:0:1 - - [05/Mar/2025:16:11:07 +0700] "GET /HelloWorlda/images/Screenshot%202025-03-03%20141029.png HTTP/1.1" 200 256236
+0:0:0:0:0:0:0:1 - - [05/Mar/2025:16:11:07 +0700] "GET /HelloWorlda/css/styles.css HTTP/1.1" 200 2021
+0:0:0:0:0:0:0:1 - - [05/Mar/2025:16:11:07 +0700] "GET /HelloWorlda/css/node_modules/bootstrap/dist/css/bootstrap.min.css HTTP/1.1" 404 840
+0:0:0:0:0:0:0:1 - - [05/Mar/2025:16:11:08 +0700] "GET /favicon.ico HTTP/1.1" 404 762
